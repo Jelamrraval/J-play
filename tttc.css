@@ -1,0 +1,71 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid #343a40;
+}
+
+.cell {
+    border: 1px solid #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+.cell:hover {
+    background-color: #f8f9fa;
+}
+
+.x-player {
+    color: #dc3545;
+}
+
+.o-player {
+    color: #0d6efd;
+}
+
+.winning-cell {
+    background-color: #ffc107;
+}.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid #343a40;
+}
+
+.cell {
+    border: 1px solid #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s;
+}
+
+.cell:hover {
+    background-color: #f8f9fa;
+}
+
+.x-player {
+    color: #dc3545;
+}
+
+.o-player {
+    color: #0d6efd;
+}
+
+.winning-cell {
+    background-color: #ffc107;
+}
